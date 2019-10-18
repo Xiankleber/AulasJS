@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  
+  <title>Listando Elementos</title>
+</head>
+<body>
+ 
+  <div id="app">
+ 
+</div>
+
+
+  
+  <script>
+  
+  var linkEment=document.createElement('a');
+
+  linkEment.setAttribute('href', 'http://uol.com.br'); 
+
+  var textElement = document.createTextNode('Acesse'); 
+
+  linkEment.appendChild(textElement);
+
+  var containerElement= document.querySelector('#app');
+  containerElement.appendChild(linkEment);
+
+
+
+
+  </script>
+</body>
+</html>
